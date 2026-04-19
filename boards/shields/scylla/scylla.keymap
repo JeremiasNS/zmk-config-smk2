@@ -2,10 +2,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
+	keymap {
+		compatible = "zmk,keymap";
 
-        default_layer {
+		DEF {
 			bindings = <
 			&bt BT_CLR  &kp N1  &kp N2  &kp N3    &kp N4         &kp N5      &bt BT_CLR     &kp N7          &kp N8     &kp N9   &kp N0     &kp DEL
 			&kp TAB     &kp Q   &kp W   &kp F     &kp P          &kp B       &kp J          &kp L           &kp U      &kp Y    &kp SEMI   &kp MINUS
@@ -14,6 +14,6 @@
 										&kp ESC   &kp SPACE      &kp LALT    &kp ENTER      &mt LSHFT BSPC  &kp ESC
                                         &kp LGUI  &kp ENTER      &kp RALT    &kp PSCRN
 			>;
-        };
-    };
+		};
+	};
 };
