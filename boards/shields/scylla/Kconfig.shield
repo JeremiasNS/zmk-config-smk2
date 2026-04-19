@@ -3,6 +3,3 @@ config SHIELD_SCYLLA_LEFT
 
 config SHIELD_SCYLLA_RIGHT
     def_bool $(shields_list_contains,scylla_right)
-
-config ZMK_SPLIT
-    default y
