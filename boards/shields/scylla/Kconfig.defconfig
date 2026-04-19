@@ -1,4 +1,5 @@
-if SHIELD_SCYLLA_LEFT
+#if SHIELD_SCYLLA_LEFT
+if SHIELD_SCYLLA_RIGHT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
