@@ -10,3 +10,9 @@
         &gpio1  4 GPIO_ACTIVE_HIGH
     >;
 };
+
+/ {
+    chosen {
+        zmk,split-role = "central";
+    };
+};
