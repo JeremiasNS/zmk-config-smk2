@@ -1,16 +1,16 @@
-#include <behaviors.dtsi>
+#include "scylla.dtsi"
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <behaviors.dtsi>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/behaviors.h>
 
-#define DEF 0
+#define BASE 0
 
 / {
 	keymap {
 		compatible = "zmk,keymap";
 
-		DEF {
-			label = "BASE";
+		default_layer {
             display-name = "Base";
 			bindings = <
 		// ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
