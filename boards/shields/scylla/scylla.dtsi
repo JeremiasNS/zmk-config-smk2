@@ -28,7 +28,6 @@
 
     };
 
-    / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
@@ -95,7 +94,6 @@
             , <&key_physical_attrs 100 100 880 550  0 0 0>
             ;
     };
-};
 
     chosen {
         zmk,kscan = &kscan0;
