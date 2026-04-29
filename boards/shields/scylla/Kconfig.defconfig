@@ -14,9 +14,6 @@ if SHIELD_SCYLLA_LEFT || SHIELD_SCYLLA_RIGHT
 config ZMK_SPLIT
     default y
 
-CONFIG_ZMK_BLE
-    default y
-
 #sleep settings
 #Idle
 config ZMK_IDLE_TIMEOUT
